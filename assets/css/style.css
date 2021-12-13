@@ -33,3 +33,22 @@ h2 {
     background-position: 1px -50px;
 }
 
+span.minimal {
+    padding: 3px;
+    background-color: rgb(4, 168, 4);
+}
+
+span.low {
+    padding: 3px;
+    background-color: rgb(4, 149, 168);
+}
+
+span.moderate {
+    padding: 3px;
+    background-color: rgb(231, 216, 1);
+}
+
+span.severe {
+    padding: 3px;
+    background-color: rgb(168, 4, 4);
+}
