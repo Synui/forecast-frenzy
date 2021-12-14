@@ -1,58 +1,97 @@
 h1 {
     text-align: center;
     color: white;
+    font-size: 40px;
 }
 
 h2 {
-    text-align: center;
     margin-bottom: 15px;
+    text-align: center;
+}
+
+h3 {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 30px;
+}
+
+.img-1 {
+    width: 50px;
+    height: 50px;
+}
+
+.img-2 {
+    width: 100px;
+    height: 100px;
 }
 
 .dashboard {
-    background-image: linear-gradient(0deg, #2BD2FF 20%, #2BFF88 80%);
+    background-image: linear-gradient(0deg, #2baaffa9 21%, #2BD2FF 89%)
 }
 
-/* #search-city {
-    border-color: #2BD2FF;
+.form-input {
+    border-radius: 4px;
 }
-
-#search-city:hover {
-    border-color: #FA8BFF;
-} */
 
 .btn {
-    background-color: #FA8BFF;
-    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+    background-image: linear-gradient(45deg, #6616cfa1 0%, #d37b099a 52%, #6ec0f7 90%);
     transition: all .5s ease-out;
     background-size: 1px 100px;
     background-position: 0 -10px;
-    margin-top: 15px;
+    margin: 15px 0;
 }
 
 .btn:hover {
     background-position: 1px -50px;
 }
 
+.city-btn {
+    background-color: #6616cf8c;
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.weather-dis {
+    line-height: 45px;
+    font-size: 22px;
+}
+
+.uv {
+    padding-bottom: 15px;
+}
+
 span.minimal {
-    padding: 3px;
-    background-color: rgb(4, 168, 4);
+    padding: 2.5px;
+    background-color: rgba(4, 168, 4, 0.637);
+    border-radius: 4px;
 }
 
 span.low {
-    padding: 3px;
-    background-color: rgb(4, 149, 168);
+    padding: 2.5px;
+    background-color: rgba(13, 123, 196, 0.589);
+    border-radius: 4px;
 }
 
 span.moderate {
-    padding: 3px;
-    background-color: rgb(231, 216, 1);
+    padding: 2.5px;
+    background-color: rgba(231, 216, 1, 0.582);
+    border-radius: 4px;
 }
 
 span.severe {
-    padding: 3px;
-    background-color: rgb(168, 4, 4);
+    padding: 2.5x;
+    background-color: rgba(168, 4, 4, 0.575);
+    border-radius: 4px;
 }
 
 .days {
-    background-image: linear-gradient(0deg, #FA8BFF 41%, #2BD2FF 80%);
+    background-image: linear-gradient(0deg, #dfb072 41% 41%, #2baaffa9 80%);
+    border: none;
+}
+
+.card-body,
+.card-header {
+    flex: auto;
+    color: white;
 }
